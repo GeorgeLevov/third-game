@@ -71,7 +71,7 @@ console.log("ship col: " + shipCol);
 var food = 10;
 var spaceRocks = 10;
 var experience = 0;
-var gameMessage = "Make sure Matt makes it back home... Alive! ... and with at least one space rock.";
+var gameMessage = "Use the arrow keys and make sure Matt makes it back home... Alive! ... and with at least one space rock.";
 
 render();
 
