@@ -1,0 +1,75 @@
+
+@font-face {
+    font-family: "marsFont";
+    src: url("../fonts/Mars 1.0.0.6.otf");
+}
+
+@font-face {
+    font-family: "spaceFont";
+    src: url("../fonts/space font.ttf");
+}
+
+@font-face {
+    font-family: "PLANS";
+    src: url("../fonts/PLANS___.ttf");
+}
+
+@font-face {
+    font-family: "SPACE OBJECT";
+    src: url("../fonts/SPACE OBJECT.ttf");
+}
+
+@font-face {
+    font-family: "spaceWorm";
+    src: url("../fonts/SPACEWORM_erc_2006.ttf");
+}
+
+
+body{
+  background-image: url("../images/background.png");
+  background-repeat: repeat;
+
+}
+
+#heading{
+  font-family: "spaceWorm";
+  text-align: center;
+  font-size:72px;
+  color: black;
+  text-shadow: 4px 0px 0px rgba(256,256,256,0.9), -4px 0px 0px rgba(256,256,256,0.9), 0px 4px 0px rgba(256,256,256,0.9), 0px -4px 0px rgba(256,256,256,0.9);
+  margin: auto;
+  margin-top:50px;
+  margin-bottom:30px;
+}
+
+#stage{
+  background: rgba(256,256,256,0.6);
+  position: relative;
+  display:block;
+  margin:auto;
+  margin-bottom:20px;
+  text-align:center;
+  width: 400px;
+  height: 400px;
+}
+
+.cell{
+  display: block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  border: 1px dashed black;
+  border-radius: 6px;
+}
+
+#output{
+  font-family: "Exo 2", sans-serif;
+  background: radial-gradient(rgba(256,256,256,0.3)  55%, transparent 70%);
+  font-size: 32px;
+  text-shadow: 2px 0px 0px rgba(256,256,256,0.9), -2px 0px 0px rgba(256,256,256,0.9), 0px 2px 0px rgba(256,256,256,0.9), 0px -2px 0px rgba(256,256,256,0.9);
+  width : 600px;
+  box-sizing: border-box;
+  text-align:center;
+  margin:auto;
+  border-radius: 20px;
+}
