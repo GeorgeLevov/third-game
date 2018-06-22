@@ -38,7 +38,7 @@ body{
   color: black;
   text-shadow: 4px 0px 0px rgba(256,256,256,0.9), -4px 0px 0px rgba(256,256,256,0.9), 0px 4px 0px rgba(256,256,256,0.9), 0px -4px 0px rgba(256,256,256,0.9);
   margin: auto;
-  margin-top:50px;
+  margin-top:30px;
   margin-bottom:30px;
 }
 
@@ -47,10 +47,11 @@ body{
   position: relative;
   display:block;
   margin:auto;
-  margin-bottom:20px;
+  margin-bottom:5px;
   text-align:center;
   width: 400px;
   height: 400px;
+  border-radius:6px;
 }
 
 .cell{
@@ -64,12 +65,16 @@ body{
 
 #output{
   font-family: "Exo 2", sans-serif;
-  background: radial-gradient(rgba(256,256,256,0.3)  55%, transparent 70%);
+  display:grid;
+  vertical-align: middle;
+  align-items:center;
+  background: radial-gradient(ellipse, rgba(256,256,256,0.5)  60%, transparent 70%);
   font-size: 32px;
-  text-shadow: 2px 0px 0px rgba(256,256,256,0.9), -2px 0px 0px rgba(256,256,256,0.9), 0px 2px 0px rgba(256,256,256,0.9), 0px -2px 0px rgba(256,256,256,0.9);
+  overflow:hidden;
+  text-shadow: 1px 0px 0px rgba(256,256,256,0.9), -1px 0px 0px rgba(256,256,256,0.9), 0px 1px 0px rgba(256,256,256,0.9), 0px -1px 0px rgba(256,256,256,0.9);
   width : 600px;
+  height: 210px;
   box-sizing: border-box;
   text-align:center;
   margin:auto;
-  border-radius: 20px;
 }

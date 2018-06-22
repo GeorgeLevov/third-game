@@ -150,7 +150,7 @@ function keyDownHandler(event){
     }
 
     food = food -1;
-    if(food <= 0 || spaceRocks <= 0){
+    if(food < 0 || spaceRocks <= 0){
       endGame();
     }
 
