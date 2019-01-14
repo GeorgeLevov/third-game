@@ -1,1 +1,1 @@
-# third-game
+# JavaScript game I made myself
